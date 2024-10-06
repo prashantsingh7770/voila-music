@@ -25,19 +25,15 @@ body{
 .wrapper{
  
     width: 400px;
-   
     background: transparent;
-  margin-left: 550px;
-  margin-top: 100px;
-
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
     box-shadow: 0, 0, 30px rgba(0, 0, 0, .5);
     backdrop-filter: blur(20px);
-   display: flex;
-
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 .wrapper .form-box{
     width: 100%;
