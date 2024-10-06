@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOILA MUSIC</title>
+    <link rel="stylesheet" href="home3.css">
+    <link rel="icon" type="image/x-icon" href="images/fd.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <img src="./pics/voila-logo.png" alt="logo">
+            </div>
+            <a href="#">Home</a>
+            <a href="https://www.jiosaavn.com/shows/kahaaniya/1/SWXbXhBWwtA_">Podcast</a>
+            <a href="https://play.google.com/store/apps">Download app❗</a>
+            <a href="login.html">Sign in</a>
+            <a href="#" class="icon" onclick="shownav()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </div>
+
+        <div id='player' class="player">
+
+            <div class="audio-container" id="audio-container">
+                <div class="audio-info">
+                    <h4 id="title">voila</h4>
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+                <audio src="./music/Jhoome Jo Pathaan (Pathaan)_192(PagalWorldl).mp3" id="audio"></audio>
+                <div class="img-container">
+                    <img src="./pics/Jhoome Jo Pathaan (Pathaan)_192(PagalWorldl).jpg" alt="music-cover" id="cover">
+                </div>
+                <div class="navigation">
+                    <button id="prev" class="action-btn">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <button id="play" class="action-btn action-btn-big">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="next" class="action-btn">
+                        <i class="fas fa-forward"></i>
+                    </button>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="content">
+
+            <div class="recently">
+
+                <h1>Recently Played</h1><br><br>
+                <div class="recently cont">
+
+                    <a onclick="playthis(0);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Jhoome Jo Pathaan (Pathaan)_192(PagalWorldl).jpg">
+                    </a>
+                    <a onclick="playthis(1);" ondblclick="pauseSong()" class="song">
+                        <img
+                            src="./pics/Bom Diggy Diggy  (VIDEO)  Zack Knight  Jasmin Walia  Sonu Ke Titu Ki Sweety.jpg">
+                    </a>
+                    <a onclick="playthis(2);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Brown Munde_320(PagalWorldl).jpg">
+                    </a>
+                    <a onclick="playthis(3);" ondblclick="pauseSong()" class="song">
+                        <img
+                            src="./pics/JAWAN_ Chaleya (Hindi)  Shah Rukh Khan  Nayanthara  Atlee  Anirudh  Arijit S, Shilpa R  Kumaar.jpg">
+                    </a>
+
+                    <a onclick="playthis(4);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Desi Kalakaar-(PagalWorld).jpg">
+                    </a>
+                    <a onclick="playthis(5);" ondblclick="pauseSong()" class="song">
+                        <img
+                            src="./pics/Pyaar Hota Kayi Baar Hai (Full video) Tu Jhoothi Main Makkaar Ranbir,Shraddha,Pritam,Arijit,Amitabh.jpg">
+                    </a><br><br>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="recently">
+
+                <h1>New Releases</h1><br><br>
+                <div class="recently cont">
+
+                    <a onclick="playthis(6);" ondblclick="pauseSong()" class="song">
+                        <img
+                            src="./pics/LEO - Ordinary Person Lyric  Thalapathy Vijay, Anirudh Ravichander, Lokesh Kanagaraj, NikhitaGandhi.jpg">
+                    </a>
+                    <a onclick="playthis(7);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Muqabla - Street Dancer 3D_192(PagalWorldl).jpg">
+                    </a>
+                    <a onclick="playthis(8);" ondblclick="pauseSong()" class="song">
+                        <img
+                            src="./pics/Heeriye X Chaleya X Tu Aake Dekhle Mashup  revibe  Viral Insta Reels, TikTok Remix.jpg">
+                    </a>
+                    <a onclick="playthis(9);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Check It Out_320(PagalWorldl).jpg">
+                    </a>
+
+                    <a onclick="playthis(10);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Sarkar_320(PagalWorldl).jpg">
+                    </a>
+
+                    <a onclick="playthis(11);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Not Ramaiya Vastavaiya(PagalWorldl).jpg">
+                    </a><br><br>
+                 </div>
+
+            </div>
+
+
+            <div class="recently">
+
+                <h1>Old Music</h1><br><br>
+                <div class="recently cont">
+
+                    <a onclick="playthis(12);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Brown Rang (honey singh) DJ ROHAN.jpg">
+                     </a>
+                    <a onclick="playthis(13);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/_Systumm(PagalWorld.com.pe).jpg">
+                    </a>
+                    <a onclick="playthis(14);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/We Rollin(PagalWorld.com.pe).jpg">
+                    </a>
+                    <a onclick="playthis(15);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/2 Gulaab_192(PagalWorld).jpg">
+                    </a>
+
+                    <a onclick="playthis(16);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Cheques(PagalWorld.com.pe).jpg">
+                    </a>
+                    <a onclick="playthis(17);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Blue Eyes(PagalWorld.com.pe).jpg">
+                    </a><br><br>
+
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="recently">
+
+                <h1>English Songs</h1><br><br>
+                <div class="recently cont">
+
+                    <a onclick="playthis(18);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Tu-Cheez-Lajawab(PagalWorld).jpg">
+                        <!--<audio src="./music/Jhoome Jo Pathaan (Pathaan)_192(PagalWorldl).mp3"></audio>-->
+                    </a>
+                    <a onclick="playthis(19);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Chhore Haryane Aale_192(PaglaSongs).jpg">
+                    </a>
+                    <a onclick="playthis(20);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Baby Calm Down(PagalWorldl).jpg">
+                    </a>
+                    <a onclick="playthis(21);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Friends(PagalWorld).jpg">
+                    </a>
+
+                    <a onclick="playthis(22);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Honey Singh Dope Shope (DJ Shadow).jpg">
+                    </a>
+                    <a onclick="playthis(23);" ondblclick="pauseSong()" class="song">
+                        <img src="./pics/Tenu Kaadi Tension(PagalWorld.com.pe).jpg">
+                    </a><br><br>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    <script src="home3.js"></script>
+</body>
+
+</html>
