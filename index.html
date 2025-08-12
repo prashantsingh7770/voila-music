@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOILA MUSIC</title>
-    <link rel="stylesheet" href="home3.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/x-icon" href="images/fd.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,40 +28,6 @@
             </a>
 
         </div>
-
-        <div id='player' class="player">
-
-            <div class="audio-container" id="audio-container">
-                <div class="audio-info">
-                    <h4 id="title">voila</h4>
-                    <div class="progress-container" id="progress-container">
-                        <div class="progress" id="progress"></div>
-                    </div>
-                </div>
-                <audio src="./music/Jhoome Jo Pathaan (Pathaan)_192(PagalWorldl).mp3" id="audio"></audio>
-                <div class="img-container">
-                    <img src="./pics/Jhoome Jo Pathaan (Pathaan)_192(PagalWorldl).jpg" alt="music-cover" id="cover">
-                </div>
-                <div class="navigation">
-                    <button id="prev" class="action-btn">
-                        <i class="fas fa-backward"></i>
-                    </button>
-                    <button id="play" class="action-btn action-btn-big">
-                        <i class="fas fa-play"></i>
-                    </button>
-                    <button id="next" class="action-btn">
-                        <i class="fas fa-forward"></i>
-                    </button>
-
-                </div>
-
-
-            </div>
-
-
-
-        </div>
-
 
 
         <div class="content">
@@ -131,7 +97,7 @@
                     <a onclick="playthis(11);" ondblclick="pauseSong()" class="song">
                         <img src="./pics/Not Ramaiya Vastavaiya(PagalWorldl).jpg">
                     </a><br><br>
-                 </div>
+                </div>
 
             </div>
 
@@ -143,7 +109,7 @@
 
                     <a onclick="playthis(12);" ondblclick="pauseSong()" class="song">
                         <img src="./pics/Brown Rang (honey singh) DJ ROHAN.jpg">
-                     </a>
+                    </a>
                     <a onclick="playthis(13);" ondblclick="pauseSong()" class="song">
                         <img src="./pics/Systumm(PagalWorld.com.pe).jpg">
                     </a>
@@ -204,11 +170,42 @@
 
         </div>
 
+        
+        <div id="player" class="player">
+            <div class="audio-container" id="audio-container">
+                <div class="img-container">
+                    <img src="./pics/Jhoome Jo Pathaan.jpg" alt="music-cover" id="cover">
+                </div>
+
+                <div class="audio-info">
+                    <h4 id="title">Jhoome Jo Pathaan</h4>
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+
+                <audio src="./music/Jhoome Jo Pathaan.mp3" id="audio"></audio>
+
+                <div class="navigation">
+                    <button id="prev" class="action-btn">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <button id="play" class="action-btn action-btn-big">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="next" class="action-btn">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
 
 
 
     </div>
-    <script src="home3.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
